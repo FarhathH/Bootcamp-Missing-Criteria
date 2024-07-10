@@ -1,3 +1,4 @@
+//Checking grades
 function setGrade(student) {
     if (student.score < 40) {
         student.grade = "F"
@@ -13,7 +14,7 @@ function setGrade(student) {
 }
 
 
-
+//Checking number is even
 function isEven(number) {
     if (number % 2 == 0) {
         return false
@@ -22,7 +23,7 @@ function isEven(number) {
 }
 
 
-
+//Calculating area of triangles
 function triangleArea(base, height) {
     return base * 2 / height
 }
