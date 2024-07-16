@@ -27,11 +27,12 @@ catch (error)
 
 try
 {
-    let student = {
+    let student = { //List used to check the function.
         name:"Michelle",
         score:34,
-        grade:""
+        grade:"" // object used to make the comparison.
     }
+    //function thats being tested.
     function setGrade(student) {
         if (student.score < 40) {
             student.grade = "F"
@@ -46,14 +47,15 @@ try
         }
     }
 
-    console.log(student.grade);
-    if(student.grade != "F"){
-        throw new Error("This isn't right");
+    console.log(student); //output the entire list, but grade has not changed.
     
+
+    if(student.grade != "F"){
+        throw new Error("This should be at F");
     }    
 }
 catch (error)
 {
-    console.log(error.message)
+    console.log(error)
 }
 
