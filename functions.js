@@ -27,3 +27,15 @@ function isEven(number) {
 function triangleArea(base, height) {
     return base * 2 / height
 }
+
+//Password creating functions
+let passcode;
+let password;
+
+function setPassword(newPassword){
+    password = new password;
+}
+
+function setPassword(newPassword){
+    
+}
