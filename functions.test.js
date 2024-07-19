@@ -98,3 +98,18 @@ function isEven(number) { //This function is being tested to check an even or od
 }
 
 console.assert(isEven(3) == false, "This should be an odd number"); // Comparing the expected and actual output.
+
+
+/*
+    Testing password/passcode functions with 'try and catch'.
+*/
+let passcode;
+let password;
+
+function setPassword(newPassword){
+    password = newPassword;
+}
+
+function setPasscode(newPasscode){
+    passcode = newPasscode;
+}

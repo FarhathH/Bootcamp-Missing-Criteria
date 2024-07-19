@@ -33,9 +33,9 @@ let passcode;
 let password;
 
 function setPassword(newPassword){
-    password = new password;
+    password = newPassword;
 }
 
-function setPassword(newPassword){
-    
+function setPasscode(newPasscode){
+    passcode = newPasscode;
 }
