@@ -116,6 +116,7 @@ try
 
     console.log(setPassword("pookiebearfdfggfdg")); //calling the function to set the password.
     console.log(password); //checking that the password has been updated.
+
     if(password.length >= 16){
         throw new Error("This password is too long.");
     }
@@ -126,16 +127,20 @@ catch(error)
     console.log(error);
 }
 
-try
-{
-    let passcode;
+// try
+// {
+//     let passcode;
 
-    function setPasscode(newPasscode){
-        passcode = newPasscode;
-    }
-    setPasscode();
-}
-catch(error)
-{
+//     function setPasscode(newPasscode){
+//         passcode = newPasscode;
+//     }
+//     console.log(setPasscode(fhhf));
 
-}
+//     if(passcode == NaN){
+//         throw new Error("Use numbers when setting up the passcode");
+//     }
+// }
+// catch(error)
+// {
+//     console.log(error);
+// }
