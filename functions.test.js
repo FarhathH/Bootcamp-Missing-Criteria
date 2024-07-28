@@ -106,41 +106,41 @@
 
 
 
-try
-{
-    let password; //value for setting up new password.
-    
-    function setPassword(newPassword){
-        password = newPassword;
-    }
-
-    console.log(setPassword("pookiebearfdfggfdg")); //calling the function to set the password.
-    console.log(password); //checking that the password has been updated.
-
-    if(password.length >= 16){
-        throw new Error("This password is too long.");
-    }
-
-}
-catch(error)
-{
-    console.log(error);
-}
-
 // try
 // {
-//     let passcode;
-
-//     function setPasscode(newPasscode){
-//         passcode = newPasscode;
+//     let password; //value for setting up new password.
+    
+//     function setPassword(newPassword){
+//         password = newPassword;
 //     }
-//     console.log(setPasscode(fhhf));
 
-//     if(passcode == NaN){
-//         throw new Error("Use numbers when setting up the passcode");
+//     console.log(setPassword("pookiebearfdfggfdg")); //calling the function to set the password.
+//     console.log(password); //checking that the password has been updated.
+
+//     if(password.length >= 16){
+//         throw new Error("This password is too long.");
 //     }
+
 // }
 // catch(error)
 // {
 //     console.log(error);
 // }
+
+try
+{
+    let passcode;
+
+    function setPasscode(newPasscode){
+        passcode = newPasscode;
+    }
+    console.log(setPasscode("4u4"));
+
+    if(isNaN(passcode)){
+        throw new Error("Use numbers when setting up the passcode");
+    }
+}
+catch(error)
+{
+    console.log(error);
+}
